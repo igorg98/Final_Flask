@@ -15,7 +15,7 @@ def first():
 
 cube = Cube(10)
 @app.route('/third', methods=['GET', 'POST'])
-def fourth():
+def third():
     if request.method == 'POST':
         if request.form['btndo'] == 'btndo':
             cube.Pimp_by_X(request.form['x'])
