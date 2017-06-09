@@ -1,0 +1,56 @@
+body 
+{
+	font-family: Consolas; 
+	font-size: 16px; 
+	color: black; 
+	background-color: black;
+	margin: 1%
+}
+
+textarea 
+{
+	margin: 0px 15px 0px 0px;
+	padding: 5px 10px 0px 10px;
+	width: 1400px;
+	resize: none;
+	font-family: Consolas; 
+	font-size: 20px;
+	background: #e5e3ff;
+	border: 0px;
+	border-left: 3px solid #d99100;
+}
+
+button
+{
+	margin: 5px 0px 5px 0px;
+	width: 200px;
+	height: 30px;
+	font-family: Consolas;
+	background: white;
+	border: 3px solid #d99100;
+}
+
+.number
+{
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 5px;
+	width: 100px;
+	height: 20px;
+	background: #e5e3ff;
+	border: 0px;
+	border-left: 3px solid #d99100;
+}
+
+#maximize
+{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	font-family: Consolas;
+	font-size: 16px;
+}
+
+#inputbox { height: 30px; }
+#ouputbox {	height: 300px; }
+button:hover {	background: #e5e3ff; }
+p { margin: 0px; }
